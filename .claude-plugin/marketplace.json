@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "inim-store",
-  "description": "Intelligence Impact AI Plugin Marketplace",
+  "description": "Intelligence Impact AI Plugin Marketplace for Internal Agents",
   "owner": {
     "name": "Oliver Wrede",
     "email": "owrede@gmail.com",
