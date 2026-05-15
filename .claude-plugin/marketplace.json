@@ -1,0 +1,11 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "inim-store",
+  "description": "Intelligence Impact AI Plugin Marketplace",
+  "owner": {
+    "name": "Oliver Wrede",
+    "email": "owrede@gmail.com",
+    "url": "https://github.com/owrede"
+  },
+  "plugins": []
+}

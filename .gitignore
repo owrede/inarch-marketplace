@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# Private meta-management skill — must never be distributed via the marketplace
+plugins/inim-marketplace/
+plugins/inim-marketplace-*/
