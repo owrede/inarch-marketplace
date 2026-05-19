@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "install-vault-memory",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "One-call installer for vault-memory in an Obsidian vault. Walks through 8 idempotent checkpoints (install source choice, Homebrew, Node 22+, Ollama, embedding model, vault-memory binary, vault registration, MCP smoketest). Defaults to autonomous mode — installs without asking for non-destructive steps, prints a one-line \"why\" for each install prompt. Re-running on a complete setup reports \"all good\" and exits in under 5 seconds. Use when the user says \"/install-vault-memory\", \"install vault-memory\", \"set up memory\", \"Memory aktivieren\", or when the mcp__vault-memory__* tools are missing in the current session.",
   "author": {
     "name": "Oliver Wrede",
