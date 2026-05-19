@@ -7,5 +7,18 @@
     "email": "owrede@gmail.com",
     "url": "https://github.com/owrede"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "install-vault-memory",
+      "description": "One-call installer for vault-memory in an Obsidian vault. Walks idempotent checkpoints (Homebrew, Node 22+, Ollama, embedding model, vault-memory binary, vault registration, MCP smoketest). Re-running on a complete setup reports 'all good' and exits in under 5 seconds.",
+      "version": "0.1.0",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/owrede/inim-store.git",
+        "path": "plugins/install-vault-memory",
+        "ref": "main"
+      }
+    }
+  ]
 }

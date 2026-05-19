@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "install-vault-memory",
+  "version": "0.1.0",
+  "description": "One-call installer for vault-memory in an Obsidian vault. Walks idempotent checkpoints (Homebrew, Node 22+, Ollama, embedding model, vault-memory binary, vault registration, MCP smoketest). Re-running on a complete setup reports 'all good' and exits in under 5 seconds.",
+  "author": {
+    "name": "Oliver Wrede",
+    "email": "owrede@gmail.com",
+    "url": "https://github.com/owrede"
+  },
+  "homepage": "https://github.com/owrede/vault-memory",
+  "license": "MIT",
+  "keywords": ["vault-memory", "obsidian", "mcp", "installer"]
+}
