@@ -10,8 +10,8 @@
   "plugins": [
     {
       "name": "install-vault-memory",
-      "description": "One-call installer for vault-memory in an Obsidian vault. Walks through 8 idempotent checkpoints (install source choice, Homebrew, Node 22+, Ollama, embedding model, vault-memory binary, vault registration, MCP smoketest). Defaults to autonomous mode — installs without asking for non-destructive steps, prints a one-line \"why\" for each install prompt. Re-running on a complete setup reports \"all good\" and exits in under 5 seconds. Use when the user says \"/install-vault-memory\", \"install vault-memory\", \"set up memory\", \"Memory aktivieren\", or when the mcp__vault-memory__* tools are missing in the current session.",
-      "version": "0.4.0",
+      "description": "One-call installer for vault-memory in an Obsidian vault. Installs the CLI/MCP server AND the Obsidian plugin (with the plugin's serverCommand pre-seeded to the absolute CLI path, so it works on first open). Walks through 9 idempotent checkpoints (version, package manager, Node 22+, Ollama, embedding model, vault-memory binary, vault registration + initial index, Obsidian plugin, MCP smoketest). Defaults to autonomous mode. Supports a read-only health check via VAULT_MEMORY_DIAGNOSE=1. Use when the user says \"/install-vault-memory\", \"install vault-memory\", \"set up memory\", \"Memory aktivieren\", or when the mcp__vault-memory__* tools are missing.",
+      "version": "0.5.0",
       "category": "development",
       "source": {
         "source": "git-subdir",
