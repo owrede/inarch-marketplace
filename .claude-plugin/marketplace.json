@@ -10,13 +10,25 @@
   "plugins": [
     {
       "name": "install-vault-memory",
-      "description": "One-call installer for vault-memory in an Obsidian vault. Installs the CLI/MCP server AND the Obsidian plugin (with the plugin's serverCommand pre-seeded to the absolute CLI path, so it works on first open). Walks through 9 idempotent checkpoints (version, package manager, Node 22+, Ollama, embedding model, vault-memory binary, vault registration + initial index, Obsidian plugin, MCP smoketest). Defaults to autonomous mode. Supports a read-only health check via VAULT_MEMORY_DIAGNOSE=1. Use when the user says \"/install-vault-memory\", \"install vault-memory\", \"set up memory\", \"Memory aktivieren\", or when the mcp__vault-memory__* tools are missing.",
-      "version": "0.5.0",
+      "description": "DEPRECATED — renamed to `vmem`. Install the `vmem` plugin from this same marketplace and use `/vmem:install` going forward. This plugin will be removed in 60 days.",
+      "version": "0.6.0",
       "category": "development",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/owrede/inim-store.git",
         "path": "plugins/install-vault-memory",
+        "ref": "main"
+      }
+    },
+    {
+      "name": "vmem",
+      "description": "Local-first agentic memory layer for Obsidian — install, diagnose, and reindex vault-memory from Claude Code via /vmem:install, /vmem:health, /vmem:reindex.",
+      "version": "0.1.0",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/owrede/inim-store.git",
+        "path": "plugins/vmem",
         "ref": "main"
       }
     }
