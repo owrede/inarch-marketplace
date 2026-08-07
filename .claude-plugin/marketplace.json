@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "inarch-marketplace",
-  "description": "Intelligence Impact AI Plugin Marketplace for Internal Agents",
+  "description": "Intelligence Architects plugin marketplace — agent plugins and skills for Claude Code.",
   "owner": {
     "name": "Oliver Wrede",
     "email": "owrede@gmail.com",

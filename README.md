@@ -1,6 +1,6 @@
 # inarch-marketplace
 
-**Intelligence Impact AI Plugin Marketplace — a curated registry of agent plugins and skills for [Claude Code](https://docs.claude.com/en/docs/claude-code).**
+**Intelligence Architects plugin marketplace — a curated registry of agent plugins and skills for [Claude Code](https://docs.claude.com/en/docs/claude-code).**
 
 inarch-marketplace is a Claude Code plugin marketplace — a git-hosted registry that bundles slash commands, skills, subagents, MCP servers, and hooks into installable plugins. Add the marketplace once, then install any plugin from it on demand.
 
