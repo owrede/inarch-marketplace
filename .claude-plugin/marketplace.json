@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "inim-store",
+  "name": "inarch-marketplace",
   "description": "Intelligence Impact AI Plugin Marketplace for Internal Agents",
   "owner": {
     "name": "Oliver Wrede",
@@ -9,13 +9,25 @@
   },
   "plugins": [
     {
+      "name": "inarch-genui",
+      "description": "Consult the Intelligence Architects UI pattern library before writing UI code. Finds the house answer for a screen, list, form, dialog or navigation structure, delivers it as installable code, and carries a proposal back when the library has no answer yet. Requires GENUI_MCP_TOKEN — issue one at genui.intelligence-architects.com.",
+      "version": "1.0.0",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/owrede/inarch-marketplace.git",
+        "path": "plugins/inarch-genui",
+        "ref": "main"
+      }
+    },
+    {
       "name": "install-vault-memory",
       "description": "DEPRECATED — renamed to `vmem`. Install the `vmem` plugin from this same marketplace and use `/vmem:install` going forward. This plugin will be removed in 60 days.",
       "version": "0.6.0",
       "category": "development",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/owrede/inim-store.git",
+        "url": "https://github.com/owrede/inarch-marketplace.git",
         "path": "plugins/install-vault-memory",
         "ref": "main"
       }
@@ -27,7 +39,7 @@
       "category": "development",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/owrede/inim-store.git",
+        "url": "https://github.com/owrede/inarch-marketplace.git",
         "path": "plugins/vmem",
         "ref": "main"
       }

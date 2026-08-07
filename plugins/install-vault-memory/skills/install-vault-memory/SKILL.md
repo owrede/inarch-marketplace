@@ -9,7 +9,7 @@ This plugin and skill have been renamed.
 
 ## What to do
 
-1. Open the `inim-store` marketplace and install the **`vmem`** plugin.
+1. Open the `inarch-marketplace` marketplace and install the **`vmem`** plugin.
 2. Use the new verb-prefixed commands:
    - `/vmem:install` — set up vault-memory in this vault (replaces the old `/install-vault-memory:install-vault-memory`)
    - `/vmem:health` — read-only diagnostic across CLI, Ollama, DBs, MCP

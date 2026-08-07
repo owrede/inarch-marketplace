@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-inim-store is a **Claude Code plugin marketplace** — a git-hosted registry, not a software project. It distributes plugins (bundles of slash commands, skills, subagents, MCP servers, hooks) that users install via `/plugin install <name>@inim-store`.
+inarch-marketplace is a **Claude Code plugin marketplace** — a git-hosted registry, not a software project. It distributes plugins (bundles of slash commands, skills, subagents, MCP servers, hooks) that users install via `/plugin install <name>@inarch-marketplace`.
 
 There is no build, no test suite, and no runtime. Validation is structural: does the JSON parse, do referenced paths exist, do plugin manifests match the marketplace entry.
 
@@ -35,6 +35,6 @@ The marketplace is currently empty (`plugins: []`, `plugins/` contains only `.gi
 
 ## Repo conventions
 
-- The repo is currently **private**. Installation requires GitHub access to `owrede/inim-store`.
-- Pin plugin entries to `ref: "main"` so `/plugin marketplace update inim-store` flows changes through.
+- The repo is currently **private**. Installation requires GitHub access to `owrede/inarch-marketplace`.
+- Pin plugin entries to `ref: "main"` so `/plugin marketplace update inarch-marketplace` flows changes through.
 - Contribution flow is README §"Contributing a plugin" — fork, branch from `main`, PR.

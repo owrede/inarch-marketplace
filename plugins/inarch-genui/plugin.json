@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "inarch-genui",
+  "version": "1.0.0",
+  "description": "Consult the Intelligence Architects pattern library before writing UI code. Finds the house answer for a screen, list, form, dialog or navigation structure, delivers it as installable code, and carries a proposal back when the library has no answer yet.",
+  "author": {
+    "name": "Intelligence Architects",
+    "url": "https://intelligence-architects.com"
+  },
+  "homepage": "https://genui.intelligence-architects.com",
+  "license": "UNLICENSED",
+  "keywords": [
+    "ui",
+    "design-system",
+    "patterns",
+    "shadcn",
+    "accessibility",
+    "component-library",
+    "mcp"
+  ]
+}
