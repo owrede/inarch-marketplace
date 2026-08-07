@@ -35,6 +35,7 @@ The marketplace is currently empty (`plugins: []`, `plugins/` contains only `.gi
 
 ## Repo conventions
 
-- The repo is currently **private**. Installation requires GitHub access to `owrede/inarch-marketplace`.
+- The repo is **public**. Anyone can add the marketplace and install from it, with no GitHub access grant. It was private during setup; anything still saying otherwise is out of date.
+- **Nothing published here may carry a credential.** `inarch-genui` is the case that makes this concrete: it reaches a pattern library that requires a token, and the token is read from `GENUI_MCP_TOKEN` at run time rather than shipped. A plugin that embedded one would hand it to every clone, and revoking it would break all of them at once.
 - Pin plugin entries to `ref: "main"` so `/plugin marketplace update inarch-marketplace` flows changes through.
 - Contribution flow is README §"Contributing a plugin" — fork, branch from `main`, PR.
